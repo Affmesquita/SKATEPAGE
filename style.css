@@ -1,0 +1,105 @@
+
+@font-face {
+    font-family: Shadow;
+    src: url(fonte/ShadowsIntoLight-Regular.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding: 20px;
+}
+
+#logo {
+    font-family: shadow;
+    padding-left: 60px;
+}
+
+a {
+    color: white;
+}
+a:hover {
+    color: rgb(192, 2, 192);
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu > li {
+    margin-right: 50px;
+}
+.menu > li a {
+    display: block;
+    padding: 10px;
+}
+
+.inicio {
+    background-color: slategray;
+    background-image: url(imagens/grafiti2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: auto;
+    height: 500px;
+    text-align: center;
+}
+.inicio > h1 {
+    font-family: Shadow;
+    font-size: 10em;
+    padding-top: 110px;
+}
+
+.titulos > h1 {
+    color: white;
+    text-align: center;
+    font-family: shadow;
+    font-size: 4em;
+}
+
+.evento {
+    max-width: 800px;
+    margin: auto;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+}
+.evento > div {
+    margin: 10px;
+    border: 1px solid grey;
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+}
+
+#materia {
+    margin: 40px 0px;
+}
+
+.materia {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: auto;
+    color: white;
+    width: 100vh;
+}
