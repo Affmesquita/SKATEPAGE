@@ -93,19 +93,6 @@ a:hover {
     font-weight: bolder;
 }
 
-#materia {
-    margin: 40px 0px;
-}
-
-.materia {
-    display: flex;
-    flex-direction: column-reverse;
-    text-align: justify;
-    margin: auto;
-    color: white;
-    width: 100vh;
-    align-items: center;
-}
 .moda {
     height: 481px;
     background-image: url(imagens/black\ moda.jpg);
@@ -122,6 +109,6 @@ a:hover {
     align-items: center;
 }
 #moda {
-    margin: 70px 0px 50px 0px;
+    margin: 100px 0px 10px 0px;
 }
 
