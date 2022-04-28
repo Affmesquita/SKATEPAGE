@@ -59,6 +59,7 @@ a:hover {
     margin: auto;
     height: 500px;
     text-align: center;
+    margin-bottom: 50px;
 }
 .inicio > h1 {
     font-family: Shadow;
@@ -71,6 +72,7 @@ a:hover {
     text-align: center;
     font-family: shadow;
     font-size: 4em;
+    margin-bottom: 30px;
 }
 
 .evento {
@@ -96,10 +98,28 @@ a:hover {
 }
 
 .materia {
-    display: flex;
-    flex-direction: column;
     text-align: justify;
     margin: auto;
     color: white;
     width: 100vh;
+    align-items: center;
 }
+.moda {
+    height: 424px;
+    background-image: url(imagens/blackboard-1846865_640.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: center;
+}
+#moda {
+    margin: 70px 0px 50px 0px;
+}
+
