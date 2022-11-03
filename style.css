@@ -49,6 +49,9 @@ a:hover {
     display: block;
     padding: 10px;
 }
+#botao-mobile {
+    display: none;
+}
 
 .inicio {
     background-color: slategray;
